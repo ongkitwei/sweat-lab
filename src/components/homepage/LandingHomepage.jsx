@@ -9,7 +9,7 @@ function LandingHomepage() {
     "calisthenics",
   ];
   return (
-    <div className="mx-auto max-w-[95%] flex flex-col items-center pb-10">
+    <div className="mx-auto max-w-[95%] flex flex-col items-center pb-10 pt-2">
       <div className="text-sm pb-6 flex flex-row items-center gap-2">
         <Image
           src="/myface.jpeg"
@@ -20,12 +20,14 @@ function LandingHomepage() {
         />
         <span className="font-bold">By Kit Wei</span>
       </div>
-      <h1 className="text-3xl md:text-5xl font-extrabold pb-6 text-center">
+      <h1 className="text-3xl md:text-5xl font-extrabold pb-8 text-center">
         Get a workout plan in seconds, not hours
       </h1>
-      <p className="max-w-[70%] md:max-w-[410px] text-center text-gray-600 pb-2">
-        A fast and effortless way to generate your workout plan — perfect for a
-        busy schedule.
+      <p className="max-w-[75%] md:max-w-[500px] text-center text-gray-600 pb-8">
+        Ever feel stuck trying to figure out the best workout for you? Don’t
+        worry — SweatLab’s got your back. We make it simple by planning
+        personalized workouts that fit your goals, your schedule, and your
+        lifestyle. All you need to do is show up and put in the work.
       </p>
       <a
         href="#cards-homepage"
