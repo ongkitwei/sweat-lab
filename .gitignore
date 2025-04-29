@@ -39,3 +39,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# pubic shit
+/public/Next.js routing issue.html
+/public/Next.js routing issue_files/

@@ -9,7 +9,7 @@ function LandingHomepage() {
     "calisthenics",
   ];
   return (
-    <div className="mx-auto max-w-[95%] flex flex-col items-center pb-10 pt-2">
+    <div className="mx-auto max-w-[95%] flex flex-col items-center pb-14 pt-2">
       <div className="text-sm pb-6 flex flex-row items-center gap-2">
         <Image
           src="/myface.jpeg"

@@ -5,7 +5,7 @@
 
 @layer components {
   .bodyweight-page-card {
-    @apply card text-xl w-[150px] h-[100px] bg-base-100 card-xs shadow-sm flex items-center justify-center hover:shadow-xl;
+    @apply card text-xl w-[150px] h-[100px] bg-base-100 card-xs shadow-sm flex items-center justify-center hover:shadow-xl hover:cursor-pointer;
   }
   .bodyweight-page-pointer {
     @apply text-lg lg:text-2xl font-semibold;

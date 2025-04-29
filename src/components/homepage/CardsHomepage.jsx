@@ -3,12 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 function CardsHomepage() {
-  const imageArray = [
-    "running",
-    "weight-lifting",
-    "bodyweight",
-    "calisthenics",
-  ];
+  const imageArray = ["weight-lifting", "bodyweight"];
   return (
     <div
       id="cards-homepage"
@@ -25,7 +20,6 @@ function CardsHomepage() {
               alt={`${x} example`}
               width={800}
               height={500}
-              layout="responsive"
               className="rounded-xl object-cover"
             />
             <div className="absolute inset-0 flex items-center justify-center bg-black/70 rounded-xl hover:cursor-pointer border-4 border-transparent hover:border-pink-300">
