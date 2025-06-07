@@ -1,9 +1,15 @@
 import { readFile } from "fs/promises";
 import { parse } from "csv-parse/sync";
+import path from "path";
 
 export async function generateBodyweightWorkout() {
   try {
-    const file = await readFile("fitness_exercises.csv", "utf8");
+    const filePath = path.join(
+      process.cwd(),
+      "public",
+      "fitness_exercises.csv"
+    );
+    const file = await readFile(filePath, "utf8");
     const records = parse(file, {
       columns: true,
       skip_empty_lines: true,
